@@ -4,16 +4,17 @@ Natural-language processing workflow for IMDB movie-review sentiment classificat
 
 ## Preview
 
-<table>
-  <tr>
-    <td width="55%">
-      <img src="./preview_model_comparison.png" alt="LSTM vs BERT sentiment modeling results" width="100%">
-    </td>
-    <td width="45%">
-      <img src="./preview_lstm_confusion_matrix.png" alt="LSTM test confusion matrix" width="100%">
-    </td>
-  </tr>
-</table>
+<img src="./preview_model_comparison.png" alt="LSTM vs BERT sentiment modeling results" width="100%">
+
+**Figure 1.** Test-set comparison between the word-level LSTM baseline and the BERT transfer-learning model.
+
+<img src="./preview_lstm_confusion_matrix.png" alt="LSTM test confusion matrix" width="100%">
+
+**Figure 2.** LSTM confusion matrix on the held-out IMDB test set.
+
+<img src="./preview_review_length_distribution.png" alt="Review length distribution by sentiment" width="100%">
+
+**Figure 3.** Review-length distribution by sentiment label after text preprocessing.
 
 ## Project summary
 
@@ -21,7 +22,7 @@ This project compares recurrent neural networks and transformer-based transfer l
 
 ## Problem
 
-The assignment asks for a recurrent neural network for sequential text data:
+This project aims to build neural models for sequential movie-review text:
 
 > Build a recurrent neural network to work with movie review data and identify reviewer sentiment. The workflow includes text cleaning, tokenization, word-level recurrent modeling, batching with a DataLoader, and applying pretrained models for transfer learning in NLP.
 
