@@ -2,6 +2,10 @@
 
 Natural-language processing workflow for IMDB movie-review sentiment classification using word-level LSTMs and BERT transfer learning.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eRx9TxNK6-m-lJGVyANgjs75yJ9ceN8k?usp=sharing) [GitHub Repo](https://github.com/DDaswE/movie-review-sentiment-lstm-bert)
+
+> Opening this notebook in Colab creates a working copy. The source notebook in GitHub remains unchanged unless a user already has write access to this repository.
+
 ## Preview
 
 <img src="./preview_model_comparison.png" alt="LSTM vs BERT sentiment modeling results" width="100%">
